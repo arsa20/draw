@@ -20,7 +20,7 @@ public class Spider_go
 
         // Загружаем изображение (размер 50x50)
         try {
-            URL imageUrl = new URL("https://avatars.mds.yandex.net/i?id=359ed88bfc42c98caeb53bec58dcfcdd_l-3707062-images-thumbs&n=13"); // Замените на свой URL изображения
+            URL imageUrl = new URL("https://avatars.mds.yandex.net/i?id=359ed88bfc42c98caeb53bec58dcfcdd_l-3707062-images-thumbs&n=13");
             imageIcon = new ImageIcon(imageUrl);
         } catch (Exception e) {
             e.printStackTrace();
